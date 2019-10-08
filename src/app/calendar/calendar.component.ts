@@ -175,6 +175,11 @@ export class CalendarComponent {
     ];
   }
 
+  addEvent1(): void{
+    console.log("mouseover test");
+  }
+
+
   deleteEvent(eventToDelete: CalendarEvent) {
     this.events = this.events.filter(event => event !== eventToDelete);
   }
